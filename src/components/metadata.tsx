@@ -12,7 +12,7 @@ const Metadata = ({ title, description, image }: props) => {
       <meta data-rh="true" name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1"/>
       <title>{ title ? title : "SEO-Friendly with Next.js" }</title>
       <meta name="description" content={ description ? description : "SEO-Friendly with Next.js" } />
-      <meta name="author" content="Gerardo Valencia" />
+      <meta name="author" content="Pratik Parmar" />
       
       <meta property="og:title" content={title ? title : "SEO-Friendly with Next.js"} />
       <meta property="og:type" content="website" />
@@ -23,7 +23,7 @@ const Metadata = ({ title, description, image }: props) => {
       <meta name="twitter:title" content={title ? title : "SEO-Friendly with Next.js"} />
       <meta name="twitter:description" content={description ? description : "SEO-Friendly with Next.js"} />
       <meta data-rh="true" name="twitter:image:src" content={image ? image : "https://img.lovepik.com/photo/40007/3158.jpg_wh300.jpg"}/>
-      </Head>
+    </Head>
   );
 }
 
